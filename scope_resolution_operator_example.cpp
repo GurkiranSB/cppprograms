@@ -6,7 +6,7 @@ using namespace std;
 
 int m = 10; //global m
 
-void main()
+int main()
 {
 	int m = 20; //m redeclared, local to main
 	
