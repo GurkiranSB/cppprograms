@@ -19,8 +19,8 @@ using namespace std;
 
 struct book
 {
-	//char title[40];
-	char author[40];
+	const char *author;
+	const char *title;
 	int pages;
 	float price;
 } book1, book2, book3;
@@ -33,14 +33,16 @@ int main()
 	book1.pages = 800;
 	book2.pages = 100;
 	book3.pages = 289;
-	const char book1.author = "Chetan Bhagat";
-	/*book2.author = "Stephen Hawking";
+	book1.author = "Chetan Bhagat";
+	book2.author = "Stephen Hawking";
 	book3.author = "Larry King";
 	book1.title = "2 States";
 	book2.title = "Brief History of Time";
-	book3.title = "My Remarkable Journey";*/
+	book3.title = "My Remarkable Journey";
 
-	cout << book1.price;
-	cout << book1.author;
+	cout << book1.price << "\n";
+	cout << book1.author << "\n";
+	cout << book2.author << "\n";
+	cout << book3.author << "\n";
 	return 0;
 }
