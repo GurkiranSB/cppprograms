@@ -1,2 +1,3 @@
-﻿  call_by_ref.cpp
+﻿  default_arguments.cpp
+c:\users\admin\gitfolder\cppprograms\demo\default_arguments.cpp(14): warning C4305: 'argument': truncation from 'double' to 'float'
   demo.vcxproj -> C:\Users\Admin\gitfolder\cppprograms\demo\Debug\demo.exe

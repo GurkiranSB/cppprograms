@@ -116,6 +116,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="call_by_ref.cpp" />
+    <ClCompile Include="default_arguments.cpp" />
+    <ClCompile Include="inline_functions.cpp" />
+    <ClCompile Include="return_by_reference.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
