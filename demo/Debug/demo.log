@@ -1,3 +1,2 @@
-﻿  default_arguments.cpp
-c:\users\admin\gitfolder\cppprograms\demo\default_arguments.cpp(14): warning C4305: 'argument': truncation from 'double' to 'float'
+﻿  factorial_using_recursion.cpp
   demo.vcxproj -> C:\Users\Admin\gitfolder\cppprograms\demo\Debug\demo.exe

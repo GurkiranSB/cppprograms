@@ -1,3 +1,5 @@
+/*
+
 #include<iostream>
 #include<conio.h>
 using namespace std;
@@ -38,3 +40,5 @@ void printline(char ch, int len)
 	printf("\n");
 
 }
+
+*/

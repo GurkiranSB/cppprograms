@@ -117,6 +117,7 @@
   <ItemGroup>
     <ClCompile Include="call_by_ref.cpp" />
     <ClCompile Include="default_arguments.cpp" />
+    <ClCompile Include="factorial_using_recursion.cpp" />
     <ClCompile Include="inline_functions.cpp" />
     <ClCompile Include="return_by_reference.cpp" />
   </ItemGroup>
