@@ -1,16 +1,18 @@
 /*
 Code for tower of hanoi.
+Website to cross check the output of the code:
+https://www.mathsisfun.com/games/towerofhanoi.html
 
 Three verticle rods in front of you.
-Leftmost rod has Disks stacked from larger at the bottom, to smaller disks at the top. 
+Leftmost rod has Disks stacked from largest at the bottom, to smallest disks at the top. 
 You have to shift all the disks to another rod.
 Rules:
 Can transfer only one disk at a time.
 Larger disk cannot be stacked on top of a smaller disk.
 Only the uppermost disk on a stack can be moved.
 
-
 */
+
 
 
 #include<iostream>
@@ -25,6 +27,8 @@ void toh(int d, char from, char to, char aux)
 	}
 	else
 	{
+		//took the case of two disks, and wrote the steps - (a,c,b) was the parameter order.
+		//Converted it to (from,aux,to) so that it would work for generic cases also.
 		toh(d - 1, from, aux, to);
 		cout << "Shift disk from tower " << from << " to tower " << to <<endl;
 		toh(d - 1, aux, to, from);
@@ -40,3 +44,4 @@ int main()
 	system("pause");
 	return(0);
 }
+

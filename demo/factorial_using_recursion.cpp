@@ -13,9 +13,9 @@ Still program does not give correct answer for the value 13.
 
 #include<iostream>
 using namespace std;
-unsigned long fact(unsigned long w)
+unsigned long long int fact(unsigned long long int w)
 {
-	unsigned long temp, default_value = 1 ;
+	unsigned long long int temp, default_value = 1 ;
 	if (w < 2)
 	return(default_value);
 	else
@@ -27,11 +27,17 @@ unsigned long fact(unsigned long w)
 
 int main()
 {
-	unsigned long a, f;
-	cout << "\n Enter a number to calculate its factorial: ";
-	cin >> a;
-	f = fact(a);
-	cout << "\nThe Factorial of the number is = " << f << endl;
+	char choice = 'y';
+	unsigned long long int a, f;
+	while (choice == 'y')
+	{
+		cout << "\n Enter a number to calculate its factorial: ";
+		cin >> a;
+		f = fact(a);
+		cout << "\nThe Factorial of the number is = " << f << endl;
+		cout << "Press y to calculate another factorial. ";
+		cin >> choice;
+	}
 	system("pause");
 	return(0);
 }
