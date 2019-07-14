@@ -1,3 +1,5 @@
+
+
 /*
 Here we will try to calculate the factorial of any number entered by the user
 Use recursion.
@@ -8,7 +10,7 @@ Still code is no good for values greater than 12.
 Converting w, and a fromm main() to unsigned long as well.
 Still program does not give correct answer for the value 13.
 
-*/
+
 #include<iostream>
 using namespace std;
 unsigned long fact(unsigned long w)
@@ -33,3 +35,5 @@ int main()
 	system("pause");
 	return(0);
 }
+
+*/

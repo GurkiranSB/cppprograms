@@ -120,6 +120,7 @@
     <ClCompile Include="factorial_using_recursion.cpp" />
     <ClCompile Include="inline_functions.cpp" />
     <ClCompile Include="return_by_reference.cpp" />
+    <ClCompile Include="tower_of_hanoi.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
